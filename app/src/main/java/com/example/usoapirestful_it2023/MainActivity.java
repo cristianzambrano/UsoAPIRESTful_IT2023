@@ -42,6 +42,7 @@ public class MainActivity
     public void processFinish(String result) throws JSONException {
         TextView txtRespuesta = findViewById(R.id.txtResp);
         if(result.equals("Login Correcto!")){
+            //Agregar las funciones de Validación
             //startActivity(Actividad2.java);
         }else {
             txtRespuesta.setText(result);
